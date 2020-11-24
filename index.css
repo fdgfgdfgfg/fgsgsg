@@ -1,0 +1,125 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(143, 255, 193);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #046d7a;
+  text-align: center;
+  padding: 21px 24px;
+  text-decoration: none;
+  font-size: 22px;
+  margin: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(13, 99, 139);
+  color: rgb(0, 0, 0);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #471cf000;
+  color: rgb(17, 114, 179);
+}
+#comLogo {
+    border: white solid 3px;
+    display: block;
+    margin: auto;
+    width: 320px;
+}
+#comName {
+    text-align: center;
+    color: rgb(59, 161, 127);
+    font-family: "Special Elite", cursive;
+    font-size: 35;
+    margin: 25px;
+  }
+  .images {
+    border: white solid 3px;
+    display: block;
+    margin: auto;
+    width: 620px;
+  }
+    .text {
+        color: lightgray;
+        font-size: 21px;
+        max-width: 50%;
+        display: block;
+        margin: 45px auto;
+        overflow: auto;
+        text-align: center;
+      }
+      
+.fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3b5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55acee;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    float: right;
+    display: block;
+    margin-bottom: 20px;
+    margin-right: 5px;
+  }
+  .serviceH {
+    color: rgb(30, 161, 194);
+    font-size: 30px;
+    text-align: left;
+  }
+  .textleft {
+    color: lightgray;
+    font-size: 21px;
+    max-width: 40%;
+    text-align: left;
+    padding-bottom: 120px;
+    padding-top: 130px;
+  }
+  .B {
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    right: 300px;
+  }
+  .serviceLeft {
+    color: rgb(30, 161, 194);
+    font-size: 30px;
+    text-align: center;
+  }
+  .serviceZ {
+    color: rgb(30, 161, 194);
+    font-size: 30px;
+    text-align: center;
+  }
+  #map {
+    width: 850px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
